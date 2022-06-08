@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALT_FUNCTIONS_H	include/alt_functions.h	18;"	d
+BD_MAX_CLOSE	include/become_daemon.h	28;"	d
+BD_NO_CHDIR	include/become_daemon.h	22;"	d
+BD_NO_CLOSE_FILES	include/become_daemon.h	23;"	d
+BD_NO_REOPEN_STD_FDS	include/become_daemon.h	24;"	d
+BD_NO_UMASK0	include/become_daemon.h	26;"	d
+BECOME_DAEMON_H	include/become_daemon.h	18;"	d
+BINARY_SEMS_H	include/binary_sems.h	18;"	d
+Boolean	include/tlpi_hdr.h	/^typedef enum { FALSE, TRUE } Boolean;$/;"	t	typeref:enum:__anon1
+CAP_FUNCTIONS_H	include/cap_functions.h	19;"	d
+CPF_CLOEXEC	include/create_pid_file.h	20;"	d
+CREATE_PID_FILE_H	include/create_pid_file.h	18;"	d
+CURR_TIME_H	include/curr_time.h	18;"	d
+ERROR_FUNCTIONS_H	include/error_functions.h	18;"	d
+EVENT_FLAGS_H	include/event_flags.h	28;"	d
+FALSE	include/tlpi_hdr.h	/^typedef enum { FALSE, TRUE } Boolean;$/;"	e	enum:__anon1
+FALSE	include/tlpi_hdr.h	42;"	d
+FILE_PERMS_H	include/file_perms.h	18;"	d
+FORK_PTY_H	include/pty_fork.h	18;"	d
+FP_SPECIAL	include/file_perms.h	22;"	d
+GET_NUM_H	include/get_num.h	18;"	d
+GN_ANY_BASE	include/get_num.h	24;"	d
+GN_BASE_16	include/get_num.h	26;"	d
+GN_BASE_8	include/get_num.h	25;"	d
+GN_GT_0	include/get_num.h	21;"	d
+GN_NONNEG	include/get_num.h	20;"	d
+INET_SOCKETS_H	include/inet_sockets.h	18;"	d
+IS_ADDR_STR_LEN	include/inet_sockets.h	32;"	d
+ITIMERSPEC_FROM_STR_H	include/itimerspec_from_str.h	18;"	d
+MAP_ANONYMOUS	include/tlpi_hdr.h	67;"	d
+NORETURN	include/error_functions.h	30;"	d
+NORETURN	include/error_functions.h	32;"	d
+O_ASYNC	include/tlpi_hdr.h	62;"	d
+O_SYNC	include/tlpi_hdr.h	73;"	d
+PRINT_RLIMIT_H	include/print_rlimit.h	18;"	d
+PRINT_RUSAGE_H	include/print_rusage.h	18;"	d
+PRINT_WAIT_STATUS_H	include/print_wait_status.h	18;"	d
+PTY_MASTER_OPEN_H	include/pty_master_open.h	18;"	d
+RDWRN_H	include/rdwrn.h	18;"	d
+READ_LINE_BUF_H	include/read_line_buf.h	18;"	d
+READ_LINE_H	include/read_line.h	18;"	d
+REGION_LOCKING_H	include/region_locking.h	18;"	d
+RL_MAX_BUF	include/read_line_buf.h	24;"	d
+ReadLineBuf	include/read_line_buf.h	/^struct ReadLineBuf {$/;"	s
+SCM_FUNCTIONS_H	include/scm_functions.h	18;"	d
+SEMUN_H	include/semun.h	19;"	d
+SIGNAL_FUNCTIONS_H	include/signal_functions.h	18;"	d
+TLPI_HDR_H	include/tlpi_hdr.h	18;"	d
+TRUE	include/tlpi_hdr.h	/^typedef enum { FALSE, TRUE } Boolean;$/;"	e	enum:__anon1
+TRUE	include/tlpi_hdr.h	38;"	d
+TTY_FUNCTIONS_H	include/tty_functions.h	18;"	d
+UGID_FUNCTIONS_H	include/ugid_functions.h	18;"	d
+UNIX_SOCKETS_H	include/unix_sockets.h	18;"	d
+USERNS_FUNCTIONS_H	include/userns_functions.h	18;"	d
+__buf	include/semun.h	/^    struct seminfo *    __buf;$/;"	m	union:semun	typeref:struct:semun::seminfo
+array	include/semun.h	/^    unsigned short *    array;$/;"	m	union:semun
+buf	include/read_line_buf.h	/^    char    buf[RL_MAX_BUF];    \/* Current buffer from file *\/$/;"	m	struct:ReadLineBuf
+buf	include/semun.h	/^    struct semid_ds *   buf;$/;"	m	union:semun	typeref:struct:semun::semid_ds
+fd	include/read_line_buf.h	/^    int     fd;                 \/* File descriptor from which to read *\/$/;"	m	struct:ReadLineBuf
+hstrerror	include/alt_functions.h	27;"	d
+len	include/read_line_buf.h	/^    ssize_t len;                \/* Number of characters in 'buf' *\/$/;"	m	struct:ReadLineBuf
+max	include/tlpi_hdr.h	48;"	d
+min	include/tlpi_hdr.h	47;"	d
+next	include/read_line_buf.h	/^    int     next;               \/* Index of next unread character in 'buf' *\/$/;"	m	struct:ReadLineBuf
+posix_openpt	include/alt_functions.h	32;"	d
+semun	include/semun.h	/^union semun {                   \/* Used in calls to semctl() *\/$/;"	u
+sival_int	include/tlpi_hdr.h	80;"	d
+sival_ptr	include/tlpi_hdr.h	81;"	d
+socklen_t	include/tlpi_hdr.h	/^typedef int socklen_t;$/;"	t
+strsignal	include/alt_functions.h	22;"	d
+val	include/semun.h	/^    int                 val;$/;"	m	union:semun
