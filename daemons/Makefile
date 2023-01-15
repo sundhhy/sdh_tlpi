@@ -3,15 +3,11 @@ include ../Makefile.inc
 #GEN_EXE = atomic_append bad_exclusive_open copy \
 	multi_descriptors seek_io t_readv t_truncate
 
-GEN_EXE = copy t_readv seek_io xiti_tee
+SYSLOG_EXE = t_syslog
 
-LINUX_EXE = large_file
-
-EXE = ${GEN_EXE} ${LINUX_EXE}
+EXE = ${SYSLOG_EXE} 
 
 all : ${EXE}
-
-allgen : ${GEN_EXE}
 
 
 clean : 
